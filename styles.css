@@ -1,0 +1,46 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+h1 {
+  background-color: #e8c5fa;
+  text-align: center;
+  border: 2px solid #816b8c;
+  padding: 20px;
+  margin: 20px;
+
+}
+
+body {
+  background-color: #9cd4d6;
+}
+
+h2 {
+  text-decoration: underline;
+}
+
+a {
+  text-decoration: none;
+  color: #00e5ff;
+}
+
+p {
+  border: 2px solid #0fb7bd;
+  margin: 20px;
+  padding: 20px;
+}
+
+.button {
+  width: 100px;
+  text-align: center;
+  font-size: 18px;
+  background-color: #7f2399;
+
+
+}
+
+ul {
+  list-style-type: circle;
+}
