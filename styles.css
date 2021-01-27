@@ -19,6 +19,7 @@ body {
 
 h2 {
   text-decoration: underline;
+  margin-left: 10px;
 }
 
 a {
@@ -41,6 +42,36 @@ p {
 
 }
 
-ul {
+.project-list {
   list-style-type: circle;
+}
+
+ul {
+  margin: 20px;
+  list-style-type: disc;
+}
+
+#email {
+  color: #008726;
+  width: 250px;
+  text-align: center;
+  padding: 10px;
+}
+
+.navbar {
+  list-style-type: none;
+  display: block;
+  padding: 25px;
+  background-color: #737373;
+  color: blue;
+  margin: auto;
+  height: 5px;
+  overflow: hidden;
+  box-sizing: border-box;
+}
+
+ul.navbar li {
+  display: inline;
+  float: left;
+  padding: 8px;
 }
